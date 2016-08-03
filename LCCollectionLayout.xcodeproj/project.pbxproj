@@ -16,6 +16,9 @@
 		5866F9D01D4EE7AF003497C9 /* LCCollectionLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9CF1D4EE7AF003497C9 /* LCCollectionLayoutTests.m */; };
 		5866F9DB1D4EE7AF003497C9 /* LCCollectionLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9DA1D4EE7AF003497C9 /* LCCollectionLayoutUITests.m */; };
 		5866F9EB1D4EE920003497C9 /* LCLineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */; };
+		58E388F31D51B8D4007DB1D0 /* LCWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E388F21D51B8D4007DB1D0 /* LCWaterfallLayout.m */; };
+		58E388F61D51BBB5007DB1D0 /* LCStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E388F51D51BBB5007DB1D0 /* LCStackLayout.m */; };
+		58E388F91D51BCD3007DB1D0 /* LCCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E388F81D51BCD3007DB1D0 /* LCCircleLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		5866F9DC1D4EE7AF003497C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5866F9E91D4EE920003497C9 /* LCLineFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLineFlowLayout.h; sourceTree = "<group>"; };
 		5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLineFlowLayout.m; sourceTree = "<group>"; };
+		58E388F11D51B8D3007DB1D0 /* LCWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCWaterfallLayout.h; sourceTree = "<group>"; };
+		58E388F21D51B8D4007DB1D0 /* LCWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWaterfallLayout.m; sourceTree = "<group>"; };
+		58E388F41D51BBB5007DB1D0 /* LCStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCStackLayout.h; sourceTree = "<group>"; };
+		58E388F51D51BBB5007DB1D0 /* LCStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCStackLayout.m; sourceTree = "<group>"; };
+		58E388F71D51BCD3007DB1D0 /* LCCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCircleLayout.h; sourceTree = "<group>"; };
+		58E388F81D51BCD3007DB1D0 /* LCCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCircleLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +158,12 @@
 			children = (
 				5866F9E91D4EE920003497C9 /* LCLineFlowLayout.h */,
 				5866F9EA1D4EE920003497C9 /* LCLineFlowLayout.m */,
+				58E388F11D51B8D3007DB1D0 /* LCWaterfallLayout.h */,
+				58E388F21D51B8D4007DB1D0 /* LCWaterfallLayout.m */,
+				58E388F41D51BBB5007DB1D0 /* LCStackLayout.h */,
+				58E388F51D51BBB5007DB1D0 /* LCStackLayout.m */,
+				58E388F71D51BCD3007DB1D0 /* LCCircleLayout.h */,
+				58E388F81D51BCD3007DB1D0 /* LCCircleLayout.m */,
 			);
 			name = Layout;
 			sourceTree = "<group>";
@@ -285,8 +300,11 @@
 			files = (
 				5866F9BD1D4EE7AE003497C9 /* ViewController.m in Sources */,
 				5866F9BA1D4EE7AE003497C9 /* AppDelegate.m in Sources */,
+				58E388F31D51B8D4007DB1D0 /* LCWaterfallLayout.m in Sources */,
 				5866F9EB1D4EE920003497C9 /* LCLineFlowLayout.m in Sources */,
 				5866F9B71D4EE7AE003497C9 /* main.m in Sources */,
+				58E388F91D51BCD3007DB1D0 /* LCCircleLayout.m in Sources */,
+				58E388F61D51BBB5007DB1D0 /* LCStackLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +528,7 @@
 				5866F9E11D4EE7AF003497C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5866F9E21D4EE7AF003497C9 /* Build configuration list for PBXNativeTarget "LCCollectionLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +537,7 @@
 				5866F9E41D4EE7AF003497C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5866F9E51D4EE7AF003497C9 /* Build configuration list for PBXNativeTarget "LCCollectionLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +546,7 @@
 				5866F9E71D4EE7AF003497C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
